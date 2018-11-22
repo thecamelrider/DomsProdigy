@@ -20,7 +20,7 @@ module Doms2 where
  -- DATA STRUCTURES
  
  -- player names - P1 drops first
- data Player = P1|P2|P3 -- player 1 or player 2
+ data Player = P1|P2 -- player 1 or player 2
                   deriving (Eq,Show)
  -- the game scores for P1 and P2
  type Scores = (Int,Int)
